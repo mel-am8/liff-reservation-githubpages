@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta  http-equiv="Content-Type" content="text/html; charset=utf-8">
-    </head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
 
-    <body>
-        <form action="">
-            <p>予約情報を入力してください</p>
+  <body>
+    <form action="">
+      <p>予約情報を入力してください</p>
 
-            <p>注文商品</p>
-            <div>
-                <input type="radio" name="product">佐藤錦 3L
-                <input type="radio" name="product">佐藤錦 2L
-                <input type="radio" name="product">佐藤錦 L
-                <input type="radio" name="product">佐藤錦 M
-            </div>
-        </form>
-    </body>
+      <p>注文商品</p>
+      <div>
+        <select name="product" id="">
+          <option value="3L">佐藤錦 3L</option>
+          <option value="2L">佐藤錦 2L</option>
+          <option value="L">佐藤錦 L</option>
+          <option value="M">佐藤錦 M</option>
+        </select>
+        <select name="product-num" id="">
+          <option value="">-</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>個
+      </div>
+    </form>
+  </body>
 </html>
