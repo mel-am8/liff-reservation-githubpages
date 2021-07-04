@@ -1,9 +1,9 @@
-import info from "./info.js";
+import { liff } from "./info.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   console.log("all ready?");
 
-  const liffId = info.info;
+  const liffId = liff;
   initializeLiff(liffId);
 });
 
