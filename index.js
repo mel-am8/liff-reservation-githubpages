@@ -7,4 +7,5 @@ let submitBtn = document.getElementById("form");
 
 function sendForm() {
   console.log("sendForm");
+  alert(document.forms);
 }
