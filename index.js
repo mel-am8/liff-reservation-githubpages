@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("all ready.");
+  console.log("all ready?");
 });
 
 // formの送信
