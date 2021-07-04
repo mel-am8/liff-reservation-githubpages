@@ -1,11 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("all ready?");
-});
-
 // formの送信
-let submitBtn = document.getElementById("form");
 
 function sendForm() {
   console.log("sendForm");
-  alert(document.forms);
+
+  let msg = "test";
+  sendText(msg);
 }
