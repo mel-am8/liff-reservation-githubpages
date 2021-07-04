@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // formの送信
 let submitBtn = document.getElementById("form");
 
-submitBtn.addEventListener("click", function () {
-  console.log("submit");
-});
+function sendForm() {
+  console.log("sendForm");
+}
