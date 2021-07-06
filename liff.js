@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("all ready?");
+  console.log("all ready");
 
   const liffId = process.env.LIFF_ID;
   initializeLiff(liffId);
