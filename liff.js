@@ -1,6 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   console.log("all ready");
 
+  let xhr = new XMLHttpRequest();
+  xhr.open(
+    "GET",
+    "https://api.github.com/repos/mel-am8/liff-reservation-githubpages/actions/secrets/LIFF_ID"
+  );
+  xhr.send();
+  xhr.onload = () => {
+    console.log(xhr.response);
+  };
+
   const liffId = process.env.LIFF_ID;
   initializeLiff(liffId);
 });
